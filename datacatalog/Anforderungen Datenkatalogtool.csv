@@ -1,0 +1,20 @@
+ID;Ziel;Anforderung / Beschreibung;Muss;Kann;Gewichtung;Bemerkungen
+1;Once Only Umsetzung;"Führung von Metadaten für diverse Datensammlungen
+- Strukturierte Daten in IT-Systemen
+- Dokumenten- und Dateiablagen (inkl. Cloud)";X;;;
+2;Once Only Umsetzung;I14Y / DCAT-kompatible Metadaten;;X;10;
+3;Once Only Umsetzung;DCAT Export;;X;1;
+4;Once Only Umsetzung;Data Owner, Data Steward und Data Custodean;X;;;
+5;Once Only Umsetzung;Datenklassifikation;X;;;
+6;Once Only Umsetzung;Verlinkung mit API / Downloadpunkten;;X;10;
+7;Once Only Umsetzung;Integration mit EAM-Tools und anderen Tools (z.B. Risk-Management oder ISO27001);;X;6;
+8;Analytics;Integration mit DWH / Data Lake Tools;;X;1;
+9;Analytics;Datenqualitätsattribute;X;;;
+10;Externe Bereitstellung;Data Lineage;;X;10;
+11;Externe Bereitstellung;Rechtsgrundlagen / Consent;;X;3;
+12;Sicherheit;Anschluss AD für Verifikation Personen (Data Owner etc.);;X;10;
+13;Betreibbarkeit;Scanning von DBs;;X;3;
+14;Betreibbarkeit;Scanning von Shareppoint / Webseiten;;X;3;
+15;Betreibbarkeit;Scanning von Dateiablagen;;X;3;
+16;Betreibbarkeit;Scanning von API-Endpoints;;;1;
+17;Betreibbarkeit;Einlesen von API Dokumentation z.B. OpenAPI-kompatibel;;X;3;

@@ -1,0 +1,24 @@
+ID;Bereich;Attribute;Muss;Kann;Gewichtung;Bemerkungen
+;Technisch;Datenquelle (unmittelbare Datenquelle);X;;;
+;Technisch;Format (DB, Dokument, CSV, XML, Binary, …);;X;3;
+;Technisch;Schema, Schemaversion, Link zum Schema;;X;6;
+;Technisch;Mengengerüst (Anzahl Datensätze, Speicherbedarf;;X;6;
+;Technisch;Aktualisierungsfrequenz;;X;6;
+;Technisch;Master-System (System of Record);X;;;
+;Technisch;Kopien / Lieferung an;;X;3;
+;Technisch;Data Custodean (technischer Betrieb);;X;10;
+;Technisch;Organisation, Budgetierung für technischen Betrieb;;X;3;
+;Technisch;letzte Aktualisierung;X;;;
+;Technisch;Historisierung des Eintrages;;X;10;
+;Technisch;technische Lieferkette, ETL-Prozesse, Lieferstatus / Fehlermeldungen;;X;3;
+;Business;Business Name, Beschreibung;X;;;
+;Business;Zweck, Verwendung in Leistungserbringungsprozessen;;X;10;
+;Business;Data Owner (Verantwortung / Entscheidungskompetenz);X;;;
+;Business;Data Steward (fachlicher Betrieb);;X;10;
+;Business;Organisation, Budgetierung für Erhebung, Qualitätssicherung, fachlicher Life Cycle;;X;6;
+;Business;Datenklassifikation(en): Personendaten, sensitive Daten, Vertraulichkeit, Integrität, Verfügbarkeit;X;;;
+;Business;Datenqualität;X;;;
+;Business;Data Lineage, Herkunft/Lieferkette, Transformationen / Aggregationen;;X;6;
+;Business;Rechtsgrundlage für Erhebung, Speicherung, Verarbeitung, Weitergabe;;X;10;
+;Business;Consent der betroffenen Person(en) zu Weitergabe etc.;;X;6;
+;Business;Erlaubte Verwendungen, Verwendungsrichtlininen;;X;3;

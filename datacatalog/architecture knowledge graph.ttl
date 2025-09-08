@@ -1,0 +1,356 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@base <http://lu.ch/ns/> .
+
+<S0001> rdf:type skos:ConceptScheme;
+        skos:definition "Schema für Konzepte, deren Namen in Architekturkatalogen auftauchen und die sowohl von Laien wie auch von Fachleuten gefunden werden müssen"@de.
+
+<C0001> rdf:type skos:Concept;
+        skos:prefLabel "Antrag"@de;
+        skos:altLabel "Gesuch"@de, "Auftrag"@de, "Begehren"@de;
+        skos:definition "Starten eines Prozessen mit dem Ergebnis einer Entscheidung (Genehmigung oder Ablehnung)"@de.
+
+<C0002> rdf:type skos:Concept;
+        skos:prefLabel "Meldung"@de;
+        skos:definition "Starten eines Prozesses oder Vorgang innerhalb eines Prozesses, der Daten ergänzt, aktualisiert oder löscht"@de.
+
+<C0003> rdf:type skos:Concept;
+        skos:prefLabel "Anmeldung"@de.
+
+<C0014> rdf:type skos:Concept;
+        skos:prefLabel "Anfrage"@de.
+
+<C0004> rdf:type skos:Concept;
+        skos:prefLabel "Dossier"@de;
+        skos:altLabel "Geschäftsfall-Dossier"@de, "Aktendossier"@de, "Fallakte"@de.
+
+<C0005> rdf:type skos:Concept;
+        skos:prefLabel "@deUnterlage"@de.
+
+<C0006> rdf:type skos:Concept;
+        skos:prefLabel "Akte"@de;
+        skos:altLabel "Ordner"@de.
+
+<C0007> rdf:type skos:Concept;
+        skos:prefLabel "Dokument"@de;
+        skos:altLabel "Schriftstück"@de, "Aktenstück"@de;
+        skos:narrower <C0005>.
+
+<C0008> rdf:type skos:Concept;
+        skos:prefLabel "Formular"@de;
+        skos:related <C0007>.
+
+<C0009> rdf:type skos:Concept;
+        skos:prefLabel "Entscheid"@de;
+        skos:altLabel "Entscheidung"@de, "Verfügung"@de.
+
+<C0010> rdf:type skos:Concept;
+        skos:prefLabel "Genehmigung"@de;
+        skos:altLabel "Lizensierung"@de.
+
+<C0011> rdf:type skos:Concept;
+        skos:prefLabel "Ablehnung"@de.
+
+<C0012> rdf:type skos:Concept;
+        skos:prefLabel "Liste"@de;
+        skos:altLabel "Katalog"@de, "Verzeichnis"@de.
+
+<C0013> rdf:type skos:Concept;
+        skos:prefLabel "Register"@de;
+        skos:altLabel "Amtliches Register"@de;
+        skos:related <C0:012>.
+
+<C0015> rdf:type skos:Concept;
+        skos:prefLabel "Agent"@de;
+        skos:altLabel "Subjekt"@de, "rechtsfähige Person"@de, "Akteur"@de.
+
+<C0016> rdf:type skos:Concept;
+        skos:prefLabel "Adresse"@de.
+
+<C0017> rdf:type skos:Concept;
+        skos:prefLabel "Bedingung"@de.
+
+<C0018> rdf:type skos:Concept;
+        skos:prefLabel "Rechtsgrundlage"@de.
+
+<C0019> rdf:type skos:Concept;
+        skos:prefLabel "Beteiligung"@de;
+        skos:note "#todo"@de.
+
+<C0020> rdf:type skos:Concept;
+        skos:prefLabel "Regel"@de.
+
+<C0021> rdf:type skos:Concept;
+        skos:prefLabel "Vertrag"@de.
+
+<C0022> rdf:type skos:Concept;
+        skos:prefLabel "Dienstleistungskonzessionsvertrag"@de.
+
+<C0023> rdf:type skos:Concept;
+        skos:prefLabel "Konzessionsvertrag"@de.
+
+<C0024> rdf:type skos:Concept;
+        skos:prefLabel "Frist"@de.
+
+<C0025> rdf:type skos:Concept;
+        skos:prefLabel "Aufbewahrungsfrist"@de.
+
+<C0026> rdf:type skos:Concept;
+        skos:prefLabel "Leistung"@de;
+        skos:altLabel "Service"@de, "Produkt"@de.
+
+<C0027> rdf:type skos:Concept;
+        skos:prefLabel "Öffentliche Dienstleistung"@de.
+
+<C0028> rdf:type skos:Concept;
+        skos:prefLabel "Leistungsbezüger"@de;
+        skos:altLabel "Kunde"@de, "Klient"@de.
+
+<C0029> rdf:type skos:Concept;
+        skos:prefLabel "Geschäftspartner"@de.
+
+<C0030> rdf:type skos:Concept;
+        skos:prefLabel "Identität"@de.
+
+<C0031> rdf:type skos:Concept;
+        skos:prefLabel "Berechtigung"@de.
+
+<C0032> rdf:type skos:Concept;
+        skos:prefLabel "Information"@de.
+
+<C0033> rdf:type skos:Concept;
+        skos:prefLabel "Leistung"@de.
+
+<C0034> rdf:type skos:Concept;
+        skos:prefLabel "Prozess"@de;
+        skos:altLabel "Verfahren"@de, "Geschäftsprozess"@de.
+
+<C0035> rdf:type skos:Concept;
+        skos:prefLabel "Leistungserbringer"@de.
+
+<C0036> rdf:type skos:Concept;
+        skos:prefLabel "Bewertung"@de.
+
+<C0037> rdf:type skos:Concept;
+        skos:prefLabel "Status"@de.
+
+<C0038> rdf:type skos:Concept;
+        skos:prefLabel "Willensbekundung"@de.
+
+<C0039> rdf:type skos:Concept;
+        skos:prefLabel "Signatur"@de.
+
+<C0040> rdf:type skos:Concept;
+        skos:prefLabel "Zustimmung"@de.
+
+<C0041> rdf:type skos:Concept;
+        skos:prefLabel "Datensammlung"@de;
+        skos:altLabel "Datenbestand"@de.
+
+<C0042> rdf:type skos:Concept;
+        skos:prefLabel "Ereignis"@de.
+
+<C0043> rdf:type skos:Concept;
+        skos:prefLabel "Geschäftsfall"@de.
+
+<C0044> rdf:type skos:Concept;
+        skos:prefLabel "Lebensereignis"@de.
+
+<C0045> rdf:type skos:Concept;
+        skos:prefLabel "Geschäftsereignis"@de.
+
+<C0046> rdf:type skos:Concept;
+        skos:prefLabel "Anspruch"@de.
+
+<C0047> rdf:type skos:Concept;
+        skos:prefLabel "Ergebnis"@de.
+
+<C0048> rdf:type skos:Concept;
+        skos:prefLabel "Sammlung"@de.
+
+<C0049> rdf:type skos:Concept;
+        skos:prefLabel "Konzept"@de.
+
+<C0050> rdf:type skos:Concept;
+        skos:prefLabel "Nachweisart"@de.
+
+<C0051> rdf:type skos:Concept;
+        skos:prefLabel "Nachweis"@de;
+        skos:related <C0050>.
+
+<C0052> rdf:type skos:Concept;
+        skos:prefLabel "Kontaktstelle"@de.
+
+<C0053> rdf:type skos:Concept;
+        skos:prefLabel "Öffentlliche Organisation"@de;
+        skos:narrower <C0054>.
+
+<C0054> rdf:type skos:Concept;
+        skos:prefLabel "Organisation"@de.
+
+<C0056> rdf:type skos:Concept;
+        skos:prefLabel "Gebühr"@de;
+        skos:related <C0057>, <C0058>.
+
+<C0057> rdf:type skos:Concept;
+        skos:prefLabel "Rechnung"@de;
+        skos:altLabel "Faktura"@de.
+
+<C0058> rdf:type skos:Concept;
+        skos:prefLabel "Bezahlung"@de.
+
+<C0059> rdf:type skos:Concept;
+        skos:prefLabel "Auszahlung"@de.
+
+<C0060> rdf:type skos:Concept;
+        skos:prefLabel "Zeit"@de;
+        skos:note "Zeitliche Komponente"@de.
+
+<C0061> rdf:type skos:Concept;
+        skos:prefLabel "Kanal"@de;
+        skos:altLabel "Übermittlungsweg"@de.
+
+<C0062> rdf:type skos:Concept;
+        skos:prefLabel "Termin"@de.
+
+<C0063> rdf:type skos:Concept;
+        skos:prefLabel "Kontrolle"@de.
+
+<C0064> rdf:type skos:Concept;
+        skos:prefLabel "Mangel"@de.
+
+<C0065> rdf:type skos:Concept;
+        skos:prefLabel "Auslieferung"@de;
+        skos:note "betrifft physische Ggenstände, Briefe, Paketsendungen"@de;
+        skos:related <C0066>.
+
+<C0066> rdf:type skos:Concept;
+        skos:prefLabel "Auslieferungsform"@de.
+
+<C0067> rdf:type skos:Concept;
+        skos:prefLabel "Rekurs"@de.
+
+<C0068> rdf:type skos:Concept;
+        skos:prefLabel "Prüfung"@de;
+        skos:note "organisierte Überprüfung von Kentnissen"@de;
+        skos:related <C0069>.
+
+<C0069> rdf:type skos:Concept;
+        skos:prefLabel "Zeugnis"@de.
+
+<C0070> rdf:type skos:Concept;
+        skos:prefLabel "Pass"@de;
+        skos:altLabel "Ausweis"@de.
+
+<C0071> rdf:type skos:Concept;
+        skos:prefLabel "Prüfmöglichkeit"@de.
+
+<C0072> rdf:type skos:Concept;
+        skos:prefLabel "Prüfung"@de;
+        skos:note "organisierte Überprüfung eines Zustandes"@de.
+
+<C0073> rdf:type skos:Concept;
+        skos:prefLabel "Prüfung"@de;
+        skos:note "organisierte Überprüfung eines Nachweises"@de.
+
+<C0074> rdf:type skos:Concept;
+        skos:prefLabel "Daten"@de.
+
+<C0075> rdf:type skos:Concept;
+        skos:prefLabel "Publikation"@de.
+
+<C0076> rdf:type skos:Concept;
+        skos:prefLabel "Mitteilung"@de.
+
+<C0077> rdf:type skos:Concept;
+        skos:prefLabel "Gültigkeit"@de.
+
+<C0078> rdf:type skos:Concept;
+        skos:prefLabel "Bewertung"@de.
+
+<C0079> rdf:type skos:Concept;
+        skos:prefLabel "Ort"@de.
+
+<C0080> rdf:type skos:Concept;
+        skos:prefLabel "Absender"@de.
+
+<C0081> rdf:type skos:Concept;
+        skos:prefLabel "Empfänger"@de.
+
+<C0082> rdf:type skos:Concept;
+        skos:prefLabel "Aufgabe"@de;
+        skos:altLabel "Behördliche Funktion"@de, "Öffentliche Aufgabe"@de, "Verwaltungsaufgabe"@de.
+
+<C0083> rdf:type skos:Concept;
+        skos:prefLabel "Zuständigkeit"@de;
+        skos:altLabel "Verantwortung"@de, "Befugnis"@de.
+
+<C0084> rdf:type skos:Concept;
+        skos:prefLabel "Aufgabe"@de.
+
+<C0085> rdf:type skos:Concept;
+        skos:prefLabel "Behörde"@de;
+        skos:altLabel "Amt"@de, "Dienststelle"@de;
+        skos:related <C0083>.
+
+<C0086> rdf:type skos:Concept;
+        skos:prefLabel "Vorschrift"@de;
+        skos:altLabel "Vorgabe"@de, "Rechtssatz"@de, "Bestimmung"@de, "Gesetzliche Vorschrift"@de, "Gesetzesbestimmung"@de.
+
+<C0087> rdf:type skos:Concept;
+        skos:prefLabel "Sendung"@de;
+        skos:altLabel "Brief"@de, "Poststück"@de.
+
+<C0088> rdf:type skos:Concept;
+        skos:prefLabel "Geschäftsobjekt"@de.
+
+<C0089> rdf:type skos:Concept;
+        skos:prefLabel "Gesetz"@de.
+
+<C0090> rdf:type skos:Concept;
+        skos:prefLabel "Verordnung"@de.
+
+<C0091> rdf:type skos:Concept;
+        skos:prefLabel "Ordnungsstruktur"@de;
+        skos:altLabel "Ordnungssystem"@de, "Klassifikationssystem"@de, "Registraturplan"@de.
+
+<C0092> rdf:type skos:Concept;
+        skos:prefLabel "Taxonomie"@de.
+
+<C0093> rdf:type skos:Concept;
+        skos:prefLabel "Natürliche Person"@de;
+        skos:related <C0094>, <C0095>.
+
+<C0094> rdf:type skos:Concept;
+        skos:prefLabel "Bürger"@de.
+
+<C0095> rdf:type skos:Concept;
+        skos:prefLabel "Einwohner"@de.
+
+<C0096> rdf:type skos:Concept;
+        skos:prefLabel "Thema"@de;
+        skos:altLabel "Zugangsthema"@de.
+
+<C0097> rdf:type skos:Concept;
+        skos:prefLabel "Unternehmen"@de;
+        skos:related <C0098>;
+        skos:note "Organisatorischer und juristischer Aspekt organisierter wirtschaftlicher Tätigkeit"@de.
+
+<C0098> rdf:type skos:Concept;
+        skos:prefLabel "Betrieb"@de;
+        skos:related <C0079>;
+        skos:note "Produktionsstätte; physischer Ort organisierter wirtschaftlicher Tätigkeit".
+
+<C0099> rdf:type skos:Concept;
+        skos:prefLabel "Unterschrift"@de;
+        skos:altLabel "Signatur"@de;
+        skos:related <C0038>.
+
+<C0100> rdf:type skos:Concept;
+        skos:prefLabel "Region"@de;
+        skos:altLabel "Territorium"@de, "Zone"@de, "Gebiet"@de;
+        skos:note "geografische Region"@de;
+        skos:related <C0083>, <C0079>.
